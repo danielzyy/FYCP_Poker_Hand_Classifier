@@ -100,68 +100,72 @@ int main() {
   testHand(handStraight);
 
  //Test 4 of kind
-  vector<Card> handFourKind;
+  // vector<Card> handFourKind;
 
-  handFourKind.push_back(Card(0, 14));
-  handFourKind.push_back(Card(3, 14));
-  handFourKind.push_back(Card(2, 14));
-  handFourKind.push_back(Card(1, 14));
-  handFourKind.push_back(Card(1, 2));
+  // handFourKind.push_back(Card(0, 14));
+  // handFourKind.push_back(Card(3, 14));
+  // handFourKind.push_back(Card(2, 14));
+  // handFourKind.push_back(Card(1, 14));
+  // handFourKind.push_back(Card(1, 2));
 
-  cout << "4 of a Kind Hand:" << endl;
-  for (auto i = handFourKind.begin(); i != handFourKind.end(); ++i) {
-    i->print();
-  }
-  testHand(handFourKind);
+  // cout << "4 of a Kind Hand:" << endl;
+  // for (auto i = handFourKind.begin(); i != handFourKind.end(); ++i) {
+  //   i->print();
+  // }
+  // testHand(handFourKind);
+  // Expected output: Four of a Kind of Ace
 
   //Test Full House
-  vector<Card> handFullHouse;
+  // vector<Card> handFullHouse;
 
-  handFullHouse.push_back(Card(3, 2));
-  handFullHouse.push_back(Card(0, 2));
-  handFullHouse.push_back(Card(2, 4));
-  handFullHouse.push_back(Card(3, 4));
-  handFullHouse.push_back(Card(3, 14));
-  handFullHouse.push_back(Card(2, 14));
-  handFullHouse.push_back(Card(1, 14));
+  // handFullHouse.push_back(Card(3, 2));
+  // handFullHouse.push_back(Card(0, 2));
+  // handFullHouse.push_back(Card(2, 4));
+  // handFullHouse.push_back(Card(3, 4));
+  // handFullHouse.push_back(Card(3, 14));
+  // handFullHouse.push_back(Card(2, 14));
+  // handFullHouse.push_back(Card(1, 14));
 
-  cout << "Full House Hand:" << endl;
-  for (auto i = handFullHouse.begin(); i != handFullHouse.end(); ++i) {
-    i->print();
-  }
-  testHand(handFullHouse);
+  // cout << "Full House Hand:" << endl;
+  // for (auto i = handFullHouse.begin(); i != handFullHouse.end(); ++i) {
+  //   i->print();
+  // }
+  // testHand(handFullHouse);
+  // Expected output: Full House with three of Ace and two of 4
 
   //Test Royal Flush
-  vector<Card> handRoyalFlush;
+  // vector<Card> handRoyalFlush;
   
-  handRoyalFlush.push_back(Card(2, 9));
+  // handRoyalFlush.push_back(Card(2, 9));
 
-  for(int i = 0; i<5; i++)
-  {
-    handRoyalFlush.push_back(Card(0, 10 + i));
-  }
+  // for(int i = 0; i<5; i++)
+  // {
+  //   handRoyalFlush.push_back(Card(0, 10 + i));
+  // }
 
-  cout << "Royal Flush Hand:" << endl;
-  for (auto i = handRoyalFlush.begin(); i != handRoyalFlush.end(); ++i) {
-    i->print();
-  }
-  testHand(handRoyalFlush);
+  // cout << "Royal Flush Hand:" << endl;
+  // for (auto i = handRoyalFlush.begin(); i != handRoyalFlush.end(); ++i) {
+  //   i->print();
+  // }
+  // testHand(handRoyalFlush);
+  // Expected output: Royal Flush with suit: Clubs
 
   //Test Straight flush
-  vector<Card> handStraightFlush;
+  // vector<Card> handStraightFlush;
 
-  handStraightFlush.push_back(Card(3, 2));
-  handStraightFlush.push_back(Card(3, 14));
-  handStraightFlush.push_back(Card(3, 4));
-  handStraightFlush.push_back(Card(3, 3));
-  handStraightFlush.push_back(Card(3, 6));
-  handStraightFlush.push_back(Card(3, 5));
+  // handStraightFlush.push_back(Card(3, 2));
+  // handStraightFlush.push_back(Card(3, 14));
+  // handStraightFlush.push_back(Card(3, 4));
+  // handStraightFlush.push_back(Card(3, 3));
+  // handStraightFlush.push_back(Card(3, 6));
+  // handStraightFlush.push_back(Card(3, 5));
 
-  cout << "Straight Flush Hand:" << endl;
-  for (auto i = handStraightFlush.begin(); i != handStraightFlush.end(); ++i) {
-    i->print();
-  }
-  testHand(handStraightFlush);
+  // cout << "Straight Flush Hand:" << endl;
+  // for (auto i = handStraightFlush.begin(); i != handStraightFlush.end(); ++i) {
+  //   i->print();
+  // }
+  // testHand(handStraightFlush);
+  // Expected output: Straight Flush with high card: 6 and suit: Spades
 
 }
 
