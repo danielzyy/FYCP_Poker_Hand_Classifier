@@ -83,21 +83,22 @@ int main() {
   testHand(hand);
   
   //Test Straight
-  vector<Card> handStraight;
+  // vector<Card> handStraight;
 
-  handStraight.push_back(Card(1, 2));
-  handStraight.push_back(Card(1, 3));
-  handStraight.push_back(Card(2, 3));
-  handStraight.push_back(Card(0, 4));
-  handStraight.push_back(Card(2, 5));
-  handStraight.push_back(Card(3, 10));
-  handStraight.push_back(Card(1, 14));
+  // handStraight.push_back(Card(1, 2));
+  // handStraight.push_back(Card(1, 3));
+  // handStraight.push_back(Card(2, 3));
+  // handStraight.push_back(Card(0, 4));
+  // handStraight.push_back(Card(2, 5));
+  // handStraight.push_back(Card(3, 10));
+  // handStraight.push_back(Card(1, 14));
 
-  cout << "Straight Hand:" << endl;
-  for (auto i = handStraight.begin(); i != handStraight.end(); ++i) {
-    i->print();
-  }
-  testHand(handStraight);
+  // cout << "Straight Hand:" << endl;
+  // for (auto i = handStraight.begin(); i != handStraight.end(); ++i) {
+  //   i->print();
+  // }
+  // testHand(handStraight);
+  //Expected output: Straight with high card: 5
 
  //Test 4 of kind
   // vector<Card> handFourKind;
