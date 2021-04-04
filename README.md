@@ -1,6 +1,8 @@
 # FYCP_Poker_Hand_Classifier
 Submission for the First Year Programming Competition
+
 Made together with Abdullah Shahid and Kevin Li
+
 The program generates a random 5 card hand, and determines the strongest poker hand out of the following options (Ranked weakest to strongest):
 1. High card
 2. One pair
